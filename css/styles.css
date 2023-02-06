@@ -1,0 +1,150 @@
+body {
+    max-width: 1440px;
+    margin: auto;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+/* CSS for Rating page */
+
+.container-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 290px; 
+    height: 300px;
+    transform: translate(-50%,-50%);
+
+    background-color:hsl(213, 19%, 18%); 
+    color: hsl(216, 12%, 54%);
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+.img-star {
+    padding: 10px;
+    background-color: hsl(230, 30%, 24%);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#id-title {
+ color: white;
+ font-size: large;
+ font-weight: 700;
+ padding: 10px;
+}
+
+
+#id-desc {
+    padding: 10px;
+    font-size: smaller;
+    line-height: 20px;
+}
+
+.btn-rate{
+    text-align: center;
+}
+
+.btn-rate button {
+    color: hsl(216, 12%, 54%);
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+    padding : 10px;
+    margin: 7px;
+    background-color: hsl(230, 30%, 24%);
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-rate button:hover {
+    background-color: #f66408;
+    color: white;
+    cursor: pointer;
+}
+
+#id-btn{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn-submit {
+    background-color: #f66408;
+    color: white;
+    font-weight: 450;
+    font-size: 12px;
+    padding: 10px 0px;
+    margin: auto;
+    width: 95%;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    color: #f66408;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* CSS for Thank you page */
+.container-thank{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 290px; 
+    height: 300px;
+    transform: translate(-50%,-50%);
+
+    background-color:hsl(213, 19%, 18%); 
+    color: hsl(216, 12%, 54%);
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px; 
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    display: none;
+}
+#img-thank {
+    width: 35%;
+    padding: 20px;
+}
+
+#id-selected{
+    color: hsl(39deg 96% 39%);
+    background-color: hsl(230, 30%, 24%);
+    width: 55%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 11px;
+}
+
+#title-tu{
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+}
+
+#tu-desc{
+    font-size: 12px;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
